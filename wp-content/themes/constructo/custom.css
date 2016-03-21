@@ -44,8 +44,14 @@ p {
 	font-weight: 200;
 	line-height: 34px
 }
+ul{
+	font-weight: 300;
+}
 @media (max-width: 767px){
 	.Container_Interna{
+		text-align: center;
+	}
+	.Container_Interna_Info{
 		text-align: center;
 	}
 }
@@ -185,6 +191,14 @@ nav.site-navigation.open{
 .Container_Interna{
 	padding-top: 80px;
 	padding-bottom: 80px;
+}
+.Container_Interna_Info{
+	padding-top: 0px;
+	padding-bottom: 80px;
+	margin-top: -50px;
+}
+.Container_Interna_Info h2{
+	color: #000;
 }
 #Portfolio_btn_row{
 	text-align: center;
