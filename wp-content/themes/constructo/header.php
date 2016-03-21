@@ -13,7 +13,14 @@ $page_heading_full = get_post_meta(get_queried_object_id(), $key ='anps_page_hea
 	<?php anps_theme_styles(); ?>
 	<?php anps_theme_after_styles(); ?>
         <?php if(isset($page_heading_full)&&$page_heading_full=="on") { add_action("wp_head", 'anps_page_full_screen_style', 1000); } ?> 
-        <?php wp_head(); ?>             
+        <?php wp_head(); ?>
+    <!-- Facebook -->
+    <meta property="og:title" content="Allan Kirsten Portfolio" />
+    <meta property="og:site_name" content="Allan Kirsten Portfolio"/>
+    <meta property="og:description" content="Seleção de trabalhos de UX/UI design, direção de arte e criação." />
+    <meta property="og:url" content="http://www.allankirsten.net" />
+    <meta property="og:image" content="http://allankirsten.net/facebook/allankirsten.jpg" />
+    <link rel="image_src" href="http://allankirsten.net/facebook/allankirsten.jpg"/ >        
 </head>
 <body <?php body_class(anps_is_responsive(true) . anps_boxed_or_vertical());?><?php anps_body_style();?>>
     <?php 
