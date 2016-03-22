@@ -36,6 +36,9 @@
 <div id="scrolltop" class="fixed scrollup"><a href="#"  title="Scroll to top"><i class="fa fa-angle-up"></i></a></div>
 <input type="hidden" id="theme-path" value="<?php echo get_template_directory_uri(); ?>" />
 <?php wp_footer(); ?>
-
+<!-- <a title="Web Analytics" href="http://clicky.com/100935550"><img alt="Web Analytics" src="//static.getclicky.com/media/links/badge.gif" border="0" /></a> -->
+    <script src="//static.getclicky.com/js" type="text/javascript"></script>
+    <script type="text/javascript">try{ clicky.init(100935550); }catch(e){}</script>
+    <noscript><p><img alt="Clicky" width="1" height="1" src="//in.getclicky.com/100935550ns.gif" /></p></noscript>
 </body>
 </html>
