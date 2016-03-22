@@ -227,5 +227,9 @@ nav.site-navigation.open{
 	background-color: #ccc !important;
 }
 .s1 a {
+	font-weight: 400;
 	text-decoration: underline;
+}
+.s1 a:hover {
+	text-decoration: none;
 }
