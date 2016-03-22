@@ -192,6 +192,9 @@ nav.site-navigation.open{
 	padding-top: 80px;
 	padding-bottom: 80px;
 }
+.Container_Interna h3{
+
+}
 .Container_Interna_Info{
 	padding-top: 0px;
 	padding-bottom: 80px;
@@ -222,4 +225,7 @@ nav.site-navigation.open{
 }
 .portfolio_btn a:hover{
 	background-color: #ccc !important;
+}
+.s1 a {
+	text-decoration: underline;
 }
