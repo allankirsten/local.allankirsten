@@ -50,6 +50,7 @@ ul{
 @media (max-width: 767px){
 	.Container_Interna{
 		text-align: center;
+
 	}
 	.Container_Interna_Info{
 		text-align: center;
@@ -86,6 +87,11 @@ nav.site-navigation.open{
 	}
 	#HeaderHome h2{
 		font-size: 18px;
+	}
+
+	#Header_Portfolio h1{
+		font-size: 52px !important;
+		line-height: 64px;
 	}
 }
 .nav-wrap.sticky{
