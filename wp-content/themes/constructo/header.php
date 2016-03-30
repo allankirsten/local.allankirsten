@@ -3,7 +3,7 @@ global $anps_options_data;
 $page_heading_full = get_post_meta(get_queried_object_id(), $key ='anps_page_heading_full', $single = true );
 ?>
 <!DOCTYPE html>
-<html <?php language_attributes(); ?>>
+<html prefix="og: http://ogp.me/ns#" <?php language_attributes(); ?>>
 <head>
 	<meta charset="<?php bloginfo( 'charset' ); ?>" />
 	<?php anps_is_responsive(false); ?>
