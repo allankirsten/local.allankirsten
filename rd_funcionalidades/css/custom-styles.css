@@ -33,6 +33,7 @@ header {
     padding: 34px 0 20px;
 }
 header a{
+    font-size: 16px;
     color: #fff;
 }
 header a:hover{
@@ -116,8 +117,25 @@ a.h_ico_crm{
 }
 
 .btn{
-    padding: 20px 0;
+    margin-top: 20px;
+    margin-right: 20px;
+    padding: 20px;
     border-radius: 0px;
-    border: 0px;
+    border: 2px;
     margin-bottom: 10px;
+}
+.btn-primary{
+    background-color: #64c1d2;
+}
+.btn-primary:hover{
+    background-color: #695341;
+    color: #64c1d2;
+}
+.btn-default{
+    color: #64c1d2;
+    background-color: #e8e8e8;
+}
+.btn-default:hover{
+    color: #695341;
+    background-color: #d8eff3
 }
