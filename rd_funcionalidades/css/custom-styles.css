@@ -114,3 +114,10 @@ a.h_ico_anali{
 a.h_ico_crm{
     background-image: url(../img/header/ico_crm.png);
 }
+
+.btn{
+    padding: 20px 0;
+    border-radius: 0px;
+    border: 0px;
+    margin-bottom: 10px;
+}
