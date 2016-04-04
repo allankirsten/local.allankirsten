@@ -55,6 +55,7 @@ header a:hover{
     background-image: url(../img/header/header.jpg);
     background-size: cover;
     background-position: center center;
+    background-attachment: fixed
 }
 #func_header h1{
     color: #fff;
