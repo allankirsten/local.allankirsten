@@ -193,7 +193,7 @@ a.h_ico_crm{
 }
 /*  Mobile Adjusts  */
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 991px) {
     .navbar-right{
         margin-top: 30px;
     }
