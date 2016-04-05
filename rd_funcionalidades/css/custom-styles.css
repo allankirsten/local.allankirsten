@@ -9,8 +9,9 @@ a{
     -o-transition:all 0.2s ease-in-out;
     transition:all 0.2s ease-in-out;
 }
-a:active, a:visited{
-    text-decoration: none;
+a:active, a:focus,{
+    text-decoration: none !important;
+    background-color: inherit;
 }
 h1{
     font-size: 44px;
@@ -38,6 +39,7 @@ header {
 header a{
     font-size: 16px;
     color: #fff;
+    border-radius: 4px !important;
 }
 header a:hover{
     border-radius: 0;
@@ -130,16 +132,20 @@ a.h_ico_crm{
 }
 .btn-primary{
     background-color: #64c1d2;
+    border-bottom: 1px solid #5fa7b4;
 }
 .btn-primary:hover{
     background-color: #695341;
     color: #82deef;
+    border-bottom: 1px solid #695341;;
 }
 .btn-default{
     color: #64c1d2;
     background-color: #e8e8e8;
+    border-bottom: 1px solid #d2d2d2;
 }
 .btn-default:hover{
     color: #695341;
-    background-color: #d8eff3
+    background-color: #d8eff3;
+    border-bottom: 1px solid #d8eff3;
 }
