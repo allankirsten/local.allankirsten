@@ -31,6 +31,11 @@ ul{
 li{
     margin-bottom: 16px;
 }
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
 header {
     background-color: #584B43;
     color: #fff;
@@ -174,3 +179,16 @@ a.h_ico_crm{
 .gray{
     background-color: #f5f5f5 !important;
 }
+
+#inner-call {
+    background-color: #705640;
+    background-color: #584b43;
+    background-image: url(../img/header/header.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+#inner-call h2{
+    color: #fff;
+}
+/*  Mobile Adjusts  */
