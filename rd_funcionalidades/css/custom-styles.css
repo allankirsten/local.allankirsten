@@ -89,7 +89,8 @@ ul.list-style li div a {
     padding: 0 115px 0 40px;
     cursor: pointer;
     background-repeat: no-repeat;
-    background-position: right
+    background-position: right;
+    border-radius: 4px;
 
 }
 
@@ -123,7 +124,7 @@ a.h_ico_crm{
     margin-top: 20px;
     margin-right: 20px;
     padding: 20px;
-    border-radius: 0px;
+    border-radius: 4px;
     border: 2px;
     margin-bottom: 6px;
 }
@@ -132,7 +133,7 @@ a.h_ico_crm{
 }
 .btn-primary:hover{
     background-color: #695341;
-    color: #64c1d2;
+    color: #82deef;
 }
 .btn-default{
     color: #64c1d2;
