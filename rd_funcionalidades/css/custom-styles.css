@@ -149,3 +149,11 @@ a.h_ico_crm{
     background-color: #d8eff3;
     border-bottom: 1px solid #d8eff3;
 }
+
+
+#automacao {
+    background: url(../img/func_bgs/automacao.png) no-repeat right fixed;
+}
+#landing{
+    background: url(../img/func_bgs/landing.png) no-repeat right fixed;
+}
