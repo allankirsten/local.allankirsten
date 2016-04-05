@@ -9,6 +9,9 @@ a{
     -o-transition:all 0.2s ease-in-out;
     transition:all 0.2s ease-in-out;
 }
+a:active, a:visited{
+    text-decoration: none;
+}
 h1{
     font-size: 44px;
 }
@@ -122,7 +125,7 @@ a.h_ico_crm{
     padding: 20px;
     border-radius: 0px;
     border: 2px;
-    margin-bottom: 10px;
+    margin-bottom: 6px;
 }
 .btn-primary{
     background-color: #64c1d2;
