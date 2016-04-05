@@ -192,3 +192,14 @@ a.h_ico_crm{
     color: #fff;
 }
 /*  Mobile Adjusts  */
+
+@media screen and (max-width: 992px) {
+    .navbar-right{
+        margin-top: 30px;
+    }
+    
+    #automacao, #landing, #email, #gestao, #analise, #crm{
+        background-image: none;
+    }
+
+}
