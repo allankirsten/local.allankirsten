@@ -3,6 +3,15 @@ body{
 	text-rendering: optimizeLegibility !important;
 	-webkit-font-smoothing: antialiased !important;
 }
+::-moz-selection { /* Code for Firefox */
+    color: #64c1d2;
+    background: #eee;
+}
+
+::selection {
+    color: #64c1d2; 
+    background: #eee;
+}
 a{
     -webkit-transition:all 0.2s ease-in-out;
     -moz-transition:all 0.2s ease-in-out;
